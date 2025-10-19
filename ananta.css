@@ -1,0 +1,375 @@
+.gay {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+    bottom: 50px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.homo {width: 110px;
+    height: auto;
+    position: absolute;
+    left: 1300px;
+    top: 330px;
+    bottom: 50px;
+transform:rotate(23deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.grah {width: 110px;
+    height: auto;
+    position: absolute;
+    left: 970px;
+    top: 10px;
+    bottom: 50px;
+transform:rotate(13deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.container 
+{max-width: 650px;
+position: relative;}
+.yessir 
+{font-size: 48px;
+font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+background-color:darkorchid;  
+  color: white;                
+  padding: 20px; 
+   border: 3px solid #fff;              
+  border-radius: 5px;         
+  max-width: 600px;           
+  margin:0 auto;
+left: 250px;}
+
+p {margin-bottom: 20px; text-align: justify;}
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #970cf4, #cbb4d7);
+color: white;
+margin-bottom: 0px;
+padding: 40px;
+line-height: 1.6;}
+.lantern {max-width: 650px;
+position: relative;}
+.rain { width: 350px;
+    height: auto;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    bottom: 50px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+    .grave{width: 160px;
+    height: auto;
+    position: absolute;
+    left:300px;
+    top: 10px;
+transform:rotate(13deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.fools {width: 160px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 230px;
+transform:rotate(13deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+   .poppy {background-color:mediumpurple;   
+  color: #fff;               
+  padding: 10px;            
+  border-radius: 8px;         
+  max-width: 600px;           
+  margin: 40px;
+ font-weight:bold; 
+ filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3)); 
+ position: relative;
+left: 200px;
+bottom: 30px;}
+ .snow {width: 110px;
+    height: auto;
+    position: absolute;
+bottom: 160px;
+left: 880px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.life {font-size: 48px;
+font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+background-color:darkorchid;  
+  color: white;                
+  padding: 20px; 
+   border: 3px solid #fff;              
+  border-radius: 5px;         
+  max-width: 600px;           
+  margin: 0 auto;     
+text-align: justify;;
+left: 500px;
+padding: 10px;}
+.softer {width: 200px;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    bottom: 90px;
+    left: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+    .fire{width: 70px;
+    height: auto;
+    position: absolute;
+    bottom: 600px;
+    left: 60px;
+    transform: rotate(10deg);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+    .chrome {width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 530px;
+    left: 90px;
+    transform: rotate(-10deg);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+    .sequins{width: 75px;
+    height: auto;
+    position: absolute;
+    bottom: 430px;
+    left: 60px;
+    transform: rotate(10deg);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+    .fate{background-color:mediumpurple;   
+  color: #fff;               
+  padding: 10px;            
+  border-radius: 8px;         
+  max-width: 600px;           
+  margin:5px;
+ font-weight:bold; 
+ filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+position: relative;
+left: 450px;}
+.pics {width: 250px;
+    height: auto;
+    position: relative;
+    bottom:360px;
+    left: 1080px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 1;}
+    .anime {width: 110px;
+    height: 150px;
+    position: relative;
+    bottom:470px;
+    left: 910px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 2;}
+  .yellow { width: 350px;
+    height: 440px;
+    position: absolute;
+    left: 1050px;
+    top: 830px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+    .spook {width: 110px;
+    height: auto;
+    position: absolute;
+    left: 1020px;
+    top: 780px;
+transform:rotate(15deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.yard {width: 170px;
+    height: auto;
+    position: relative;
+    left: 1300px;
+    bottom: 100px;
+transform:rotate(15deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.ariana {font-size: 48px;
+font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+background-color:darkorchid;  
+  color: white;                
+  padding: 20px; 
+   border: 3px solid #fff;              
+  border-radius: 5px;         
+  max-width: 600px;           
+  margin:0 auto;
+left: 200px;
+bottom: 505px;}
+.grimes {background-color:mediumpurple;   
+  color: #fff;               
+  padding: 10px;            
+  border-radius: 8px;         
+  max-width: 600px;           
+  margin:5px;
+ font-weight:bold; 
+ filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3)); 
+ position: relative;
+ bottom: 505px;
+left: 280px;}
+.winter {width: 110px;
+    height: auto;
+    position: absolute;
+top: 1050px;
+left: 920px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.courage {width: 200px;
+    height: auto;
+    position: absolute;
+    top: 950px;
+    left: 30px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 1;}
+    .redwood{width: 140px;
+    height: auto;
+    position: absolute;
+    top: 1170px;
+    left: 130px;
+    transform: rotate(17deg);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 2;}
+    .thighs {width: 110px;
+    height: auto;
+    position: absolute;
+    top: 910px;
+    left: 5px;
+    transform: rotate(25deg);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 3;}
+  .yabadoo {width: 350px;
+    height: auto;
+    position: absolute;
+    left: 10px;
+    top: 1390px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 4;}
+  .rerir {width: 110px;
+    height: auto;
+    position: absolute;
+    left: 280px;
+    top: 1310px;
+transform:rotate(-13deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 5;}
+.varka{width: 110px;
+    height: auto;
+    position: absolute;
+    left: 10px;
+    top: 1700px;
+transform:rotate(13deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 6;}
+.heather{font-size: 48px;
+font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+background-color:darkorchid;  
+  color: white;                
+  padding: 20px; 
+   border: 3px solid #fff;              
+  border-radius: 5px;         
+  max-width: 600px;           
+  margin: 0 auto;     
+text-align: justify;;
+left: 500px;
+padding: 10px;
+bottom: 500px;}
+.sacred {background-color:mediumpurple;   
+  color: #fff;               
+  padding: 10px;            
+  border-radius: 8px;         
+  max-width: 600px;           
+  margin:5px;
+ font-weight:bold; 
+ filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+position: relative;
+overflow: hidden;
+left: 380px;
+bottom: 500px;}
+.broad {width: 450px;
+    height: auto;
+    position: relative;
+    bottom:850px;
+    left: 1080px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+    overflow: hidden;
+  z-index: 2;}
+  .scream {width: 330px;
+    height: 250px;
+    position: relative;
+    bottom:985px;
+    left: 680px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+    overflow: hidden;
+  z-index: 1;}
+.cupcakehead {width: 350px;
+    height: 440px;
+    position: absolute;
+    left: 1105px;
+    top: 1800px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+    .frog {font-size: 40px;
+font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+background-color:darkorchid;  
+  color: white;                
+  padding: 20px; 
+   border: 3px solid #fff;              
+  border-radius: 5px;         
+  max-width: 600px;           
+  margin:0 auto;
+  right: 300px;
+bottom: 860px;}
+.funky {background-color:mediumpurple;   
+  color: #fff;               
+  padding: 10px;            
+  border-radius: 8px;         
+  max-width: 600px;           
+  margin:5px;
+ font-weight:bold; 
+ filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+position: relative;
+overflow: hidden;
+left: 420px;
+bottom: 855px;}
+.neck {width: 110px;
+    height: auto;
+    position: absolute;
+    left: 1400px;
+    top: 2100px;
+transform:rotate(15deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+.gone {width: 110px;
+    height: auto;
+    position: absolute;
+    left: 1050px;
+    top: 1730px;
+transform:rotate(15deg);
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 3;}
+.cyber{width: 200px;
+    height: auto;
+    position: absolute;
+    top: 1800px;
+    left: 70px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 1}
+body {
+margin: 0;
+padding: 0; overflow-y: auto;
+}
+.echo {width: 350px;
+    height: auto;
+    position: absolute;
+    top: 1750px;
+    left: 60px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 1;}
+  .rules {width: 260px;
+    height: 265px;
+    position: absolute;
+    top: 1825px;
+    left: 105px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  z-index: 2;}
+  .flow {width: 1600px;
+    height: 690px;
+    position: absolute;
+    top: 2350px;
+  left: 0px;}

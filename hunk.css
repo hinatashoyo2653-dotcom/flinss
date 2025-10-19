@@ -1,0 +1,809 @@
+
+body {
+     background: linear-gradient(to bottom, #17ffe0, #afaca9);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh; /* 👈 ensures it fills the full screen height */
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-container {
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  width: 100%;
+  margin: 0px auto 0; 
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #88e9ee, rgb(109, 221, 173)); 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.scroll-gallery {
+  display: flex;
+  gap: 20px;
+  width: max-content; 
+  animation: nyopo 60s linear infinite;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
+
+.scroll-gallery img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
+.scroll-gallery img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes nyopo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+
+.calm {
+    color: white;
+  border: 2px solid #fafafa;   /* solid border */
+  padding: 5px 5px;       /* space inside the box */
+  display: inline-block;    /* shrink to fit text width */
+  border-radius: 5px;       /* optional rounded corners */
+  font-size: 40px;
+  position: absolute;
+  bottom: 620px;
+  right: 200px;
+  width: 80%;         /* makes it take 80% of the parent width */
+  max-width: 1500px;   /* optional: limit how wide it can get */
+  margin: auto;     /* center horizontally */
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+.poppy {color: white;
+margin: 70px;
+bottom: 60px;
+position: absolute;
+bottom: 450px;
+right: 50px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+
+.video-link a {
+  color: #abf1e3;            /* yellowish text color */
+  text-decoration: none;     /* remove underline */
+  border: 2px solid #68e4af;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.video-link a:hover {
+  background-color: #a3ead6;
+  color: #3b2e1e; }
+
+  .video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+  top: 290px;      /* distance from the top */
+  left: 320px; 
+  z-index: 2;
+}
+
+.video-container iframe {
+   width: 800px;   /* or 100% for responsive */
+  height: 450px;
+  border-radius: 10px;
+  border: 3px solid #23ddf5;
+}
+a:link {
+  color: #75cbbb;          /* yellow */
+  text-decoration: none;
+}
+
+/* when hovered (mouse over) */
+a:hover {
+  color: #e6fff9;          /* orange */
+  text-decoration: underline;
+}
+
+/* when clicked (while pressing) */
+a:active {
+  color: #33efe2;          /* darker orange */
+}
+
+/* after it’s been visited */
+a:visited {
+  color: #bdf4e7;          /* brownish color */
+}
+.line-separator {
+  height: 3px;               /* line thickness */
+  background-color: #beecff; /* line color */
+  width: 100%;
+position: relative;
+top: 80px;
+  border-radius: 2px;        /* slightly rounded edges (optional) */
+}
+.galleryPcontainer {
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  width: 100%;
+  margin: 970px auto 0; 
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #88e9ee, rgb(109, 221, 173)); 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.scrollPgallery {
+  display: flex;
+  gap: 20px;
+  width: max-content; 
+  animation: nyopo 60s linear infinite;
+}
+
+
+.scrollPgallery img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.scrollPgallery img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes nyopo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+
+
+  .poppyz { color: white;
+margin: 70px;
+bottom: 620px;
+position: relative;
+top: 250px;
+right: 50px; 
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+
+.calma {
+    color: white;
+  border: 2px solid #f7f5f3;   /* solid border */
+  padding: 5px 5px;       /* space inside the box */
+  display: inline-block;    /* shrink to fit text width */
+  border-radius: 5px;       /* optional rounded corners */
+  font-size: 40px;
+  position: absolute;
+  top: 1120px;
+  right: 300px;
+  width: 70%;         /* makes it take 80% of the parent width */
+  max-width: 900px;   /* optional: limit how wide it can get */
+  margin: auto;     /* center horizontally */
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
+.video-link a {
+  color: #abf1e3;            /* yellowish text color */
+  text-decoration: none;     /* remove underline */
+  border: 2px solid #68e4af;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.video-link a:hover {
+  background-color: #a3ead6;
+  color: #3b2e1e; }
+
+  .videocontainer {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+  top: 200px;      /* distance from the top */
+  left: 320px; 
+  z-index: 2;
+}
+
+.videocontainer iframe {
+  width: 800px;   /* or 100% for responsive */
+  height: 450px;
+  border-radius: 10px;
+  border: 3px solid #23ddf5;
+}
+a:link {
+  color: #75cbbb;          /* yellow */
+  text-decoration: none;
+}
+
+/* when hovered (mouse over) */
+a:hover {
+  color: #e6fff9;          /* orange */
+  text-decoration: underline;
+}
+
+/* when clicked (while pressing) */
+a:active {
+  color: #33efe2;          /* darker orange */
+}
+
+/* after it’s been visited */
+a:visited {
+  color: #bdf4e7;          /* brownish color */
+}
+ .full-line {
+  border: none;
+  height: 3px;
+  background-color: #ffc04d;
+  width: 100vw;     /* full viewport width */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* keeps it centered */
+  margin-top: 80px }
+
+  .galleryscontainer {
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  width: 100%;
+  margin: 1850px auto 0; 
+  padding: 10px;
+  border-radius: 20px;
+background: linear-gradient(to right, #88e9ee, rgb(109, 221, 173)); 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.scrollsgallery {
+  display: flex;
+  gap: 20px;
+  width: max-content; 
+  animation: nyopo 60s linear infinite;
+}
+
+
+.scrollsgallery img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.scrollsgallery img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes nyopo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+.calmax { color: white;
+  border: 2px solid #fefefe;   /* solid border */
+  padding: 5px 5px;       /* space inside the box */
+  display: inline-block;    /* shrink to fit text width */
+  border-radius: 5px;       /* optional rounded corners */
+  font-size: 40px;
+  position: absolute;
+  top: 1990px;
+  right: 470px;
+  width: 70%;         /* makes it take 80% of the parent width */
+  max-width: 650px;   /* optional: limit how wide it can get */
+  margin: auto;     /* center horizontally */
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 2;}
+
+.poppyx {color: white;
+margin: 70px;
+bottom: 60px;
+position: absolute;
+top: 2000px;
+right: 50px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 1;}
+
+.video-link a {
+  color: #abf1e3;            /* yellowish text color */
+  text-decoration: none;     /* remove underline */
+  border: 2px solid #68e4af;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.video-link a:hover {
+  background-color: #a3ead6;
+  color: #3b2e1e; }
+
+  .videoscontainer {
+   position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+  top: 240px;      /* distance from the top */
+  left: 320px; 
+  z-index: 2;
+}
+
+.videoscontainer iframe {
+    width: 800px;   /* or 100% for responsive */
+  height: 450px;
+  border-radius: 10px;
+  border: 3px solid #23ddf5;}
+a:link {
+  color: #75cbbb;          /* yellow */
+  text-decoration: none;
+}
+
+/* when hovered (mouse over) */
+a:hover {
+  color: #e6fff9;          /* orange */
+  text-decoration: underline;
+}
+
+/* when clicked (while pressing) */
+a:active {
+  color: #33efe2;          /* darker orange */
+}
+
+/* after it’s been visited */
+a:visited {
+  color: #bdf4e7;          /* brownish color */
+}
+
+
+.fullsline {border: none;
+  height: 3px;
+  background-color: #ffc04d;
+  width: 100vw;     /* full viewport width */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* keeps it centered */
+  margin-top: 160px }
+
+   .galleryecontainer {
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  width: 100%;
+  margin: 2750px auto 0; 
+  padding: 10px;
+  border-radius: 20px;
+background: linear-gradient(to right, #88e9ee, rgb(109, 221, 173)); 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.scrollegallery {
+  display: flex;
+  gap: 20px;
+  width: max-content; 
+  animation: nyopo 60s linear infinite;
+}
+
+
+.scrollegallery img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.scrollegallery img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes nyopo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+.calmau { color: white;
+  border: 2px solid #fcf9f6;   /* solid border */
+  padding: 5px 5px;       /* space inside the box */
+  display: inline-block;    /* shrink to fit text width */
+  border-radius: 5px;       /* optional rounded corners */
+  font-size: 40px;
+  position: absolute;
+  top: 2890px;
+  right: 100px;
+  width: 80%;         /* makes it take 80% of the parent width */
+  max-width: 1300px;   /* optional: limit how wide it can get */
+  margin: auto;     /* center horizontally */
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 2;}
+
+.poppu {color: white;
+margin: 70px;
+bottom: 60px;
+position: absolute;
+top: 2900px;
+right: 50px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 1;}
+
+.video-link a {
+  color: #abf1e3;            /* yellowish text color */
+  text-decoration: none;     /* remove underline */
+  border: 2px solid #68e4af;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.video-link a:hover {
+  background-color: #a3ead6;
+  color: #3b2e1e; }
+
+  .videoocontainer {
+   position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+  top: 320px;      /* distance from the top */
+  left: 320px; 
+  z-index: 2;
+}
+
+.videoocontainer iframe {
+ width: 800px;   /* or 100% for responsive */
+  height: 450px;
+  border-radius: 10px;
+  border: 3px solid #23ddf5;}
+a:link {
+  color: #75cbbb;          /* yellow */
+  text-decoration: none;
+}
+
+/* when hovered (mouse over) */
+a:hover {
+  color: #e6fff9;          /* orange */
+  text-decoration: underline;
+}
+
+/* when clicked (while pressing) */
+a:active {
+  color: #33efe2;          /* darker orange */
+}
+
+/* after it’s been visited */
+a:visited {
+  color: #bdf4e7;          /* brownish color */
+}
+
+.fulloline {border: none;
+  height: 3px;
+  background-color: #ffc04d;
+  width: 100vw;     /* full viewport width */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* keeps it centered */
+  margin-top: 200px}
+
+   .galleryicontainer {
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  width: 100%;
+  margin: 3650px auto 0; 
+  padding: 10px;
+  border-radius: 20px;
+ background: linear-gradient(to right, #88e9ee, rgb(109, 221, 173)); 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.scrolligallery {
+  display: flex;
+  gap: 20px;
+  width: max-content; 
+  animation: nyopo 60s linear infinite;
+}
+
+
+.scrolligallery img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.scrolligallery img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes nyopo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+.calmo { color: white;
+  border: 2px solid #ffffff;   /* solid border */
+  padding: 5px 5px;       /* space inside the box */
+  display: inline-block;    /* shrink to fit text width */
+  border-radius: 5px;       /* optional rounded corners */
+  font-size: 40px;
+  position: absolute;
+  top: 3790px;
+  right: 500px;
+  width: 85%;         /* makes it take 80% of the parent width */
+  max-width: 570px;   /* optional: limit how wide it can get */
+  margin: auto;     /* center horizontally */
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 2;}
+
+.poppo {color: white;
+margin: 70px;
+bottom: 60px;
+position: absolute;
+top: 3800px;
+right: 50px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 1;}
+.video-link a {
+  color: #abf1e3;            /* yellowish text color */
+  text-decoration: none;     /* remove underline */
+  border: 2px solid #68e4af;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.video-link a:hover {
+  background-color: #a3ead6;
+  color: #3b2e1e; }
+
+  .videopcontainer {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+  top: 400px;      /* distance from the top */
+  left: 320px; 
+  z-index: 2;
+}
+
+.videopcontainer iframe {
+  width: 800px;   /* or 100% for responsive */
+  height: 450px;
+  border-radius: 10px;
+  border: 3px solid #23ddf5; }
+a:link {
+  color: #75cbbb;          /* yellow */
+  text-decoration: none;
+}
+
+/* when hovered (mouse over) */
+a:hover {
+  color: #e6fff9;          /* orange */
+  text-decoration: underline;
+}
+
+/* when clicked (while pressing) */
+a:active {
+  color: #33efe2;          /* darker orange */
+}
+
+/* after it’s been visited */
+a:visited {
+  color: #bdf4e7;          /* brownish color */
+}
+.fullzoline {border: none;
+  height: 3px;
+  background-color: #ffc04d;
+  width: 100vw;     /* full viewport width */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* keeps it centered */
+  margin-top: 260px}
+
+  .galleryucontainer {
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  width: 100%;
+  margin: 4560px auto 0; 
+  padding: 10px;
+  border-radius: 20px;
+ background: linear-gradient(to right, #88e9ee, rgb(109, 221, 173)); 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.scrollugallery {
+  display: flex;
+  gap: 20px;
+  width: max-content; 
+  animation: nyopo 60s linear infinite;
+}
+
+
+.scrollugallery img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.scrollugallery img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes nyopo {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); 
+  }
+}
+.calmzo { color: white;
+  border: 2px solid #f3f3f3;   /* solid border */
+  padding: 5px 5px;       /* space inside the box */
+  display: inline-block;    /* shrink to fit text width */
+  border-radius: 5px;       /* optional rounded corners */
+  font-size: 40px;
+  position: absolute;
+  top: 4690px;
+  right: 500px;
+  width: 85%;         /* makes it take 80% of the parent width */
+  max-width: 600px;   /* optional: limit how wide it can get */
+  margin: auto;     /* center horizontally */
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 2;}
+
+.poppzo {color: white;
+margin: 70px;
+bottom: 60px;
+position: absolute;
+top: 4680px;
+right: 50px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+z-index: 1;}
+
+       .video-link a {
+  color: #abf1e3;            /* yellowish text color */
+  text-decoration: none;     /* remove underline */
+  border: 2px solid #68e4af;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.video-link a:hover {
+  background-color: #a3ead6;
+  color: #3b2e1e; }
+
+  .videopzcontainer {
+ position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+  top: 400px;      /* distance from the top */
+  left: 320px; 
+  z-index: 2;
+}
+
+.videopzcontainer iframe {
+width: 800px;   /* or 100% for responsive */
+  height: 450px;
+  border-radius: 10px;
+  border: 3px solid #23ddf5;
+}
+a:link {
+  color: #75cbbb;          /* yellow */
+  text-decoration: none;
+}
+
+/* when hovered (mouse over) */
+a:hover {
+  color: #e6fff9;          /* orange */
+  text-decoration: underline;
+}
+
+/* when clicked (while pressing) */
+a:active {
+  color: #33efe2;          /* darker orange */
+}
+
+/* after it’s been visited */
+a:visited {
+  color: #bdf4e7;          /* brownish color */
+}
+body {
+margin: 0;
+padding: 0; overflow-y: auto;
+overflow-x: hidden;
+}
+a {
+  position: relative;
+  z-index: 5;
+}
+.sink {width: 2000px;
+    height: 950px;
+position: relative;
+top: 30px; 
+right: 0px;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
+
+.brand {font-size: 30px;
+font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+background-color:rgb(28, 217, 246);  
+  color: white;                
+  padding: 10px; 
+   border: 3px solid #eefffd;              
+  border-radius: 5px;         
+  max-width: 600px;           
+  margin:0 auto;
+  right: 0px;
+bottom: -10px;
+z-index: 1;
+filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));}
